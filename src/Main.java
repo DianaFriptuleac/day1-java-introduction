@@ -17,7 +17,7 @@ public class Main {
         // Nuova stringa da inserire
         String newString = "Padova";
 
-        // Chiamo il metodo insertString per ottenere il nuovo array con 6 elementi
+        // Chiamo il metodo insertString per ottenere il nuovo array con 6 elementi dentro
         String[] newStringArray = FirstMain.insertString(stringArray, newString);
 
         //Stampo il mio nuovo array
