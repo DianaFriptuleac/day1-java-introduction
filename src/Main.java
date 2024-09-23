@@ -31,5 +31,29 @@ public class Main {
         SecondMain mySecondExercice = new SecondMain();
         mySecondExercice.insertSting();
 
+
+        System.out.println("--------------------------------EX3--------------------------------------");
+
+        ThirdMain thirdEx = new ThirdMain();
+
+        //Perimetro del rettangolo
+        int lato1 = 10;
+        int lato2 = 5;
+        System.out.println("Il perimetro del rettangolo è: " + ThirdMain.perimetroRettangolo(lato1, lato2));
+
+        //Pari o dispari
+        int thirdNumber = 11;
+
+        boolean isPari = ThirdMain.pariDispari(thirdNumber);
+        System.out.println((isPari));
+
+        // Esempio di chiamata del metodo per calcolare l'area di un triangolo
+        double l1 = 5.0;
+        double l2 = 6.5;
+        double l3 = 7.5;
+
+        // AreaTriangolo e stampa il risultato
+        double area = ThirdMain.areaTriangolo(l1, l2, l3);
+        System.out.println("L'area del triangolo è: " + area);
     }
 }
