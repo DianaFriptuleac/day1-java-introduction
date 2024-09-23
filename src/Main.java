@@ -11,5 +11,20 @@ public class Main {
 
         System.out.println("Concatena stringa e numero: " + FirstMain.concatena(mystring, mynumber));
 
+        //Una nuova stringa in un array e restituire un array di 6 elementi
+        // Array originale con 5 elementi
+        String[] stringArray = {"Milano", "Roma", "Napoli", "Modena", "Bologna"};
+        // Nuova stringa da inserire
+        String newString = "Padova";
+
+        // Chiamo il metodo insertString per ottenere il nuovo array con 6 elementi
+        String[] newStringArray = FirstMain.insertString(stringArray, newString);
+
+        //Stampo il mio nuovo array
+        System.out.println("Nuovo array con 6 citta:");
+        for (String citta : newStringArray){
+            System.out.println(citta);
+        }
+
     }
 }
