@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("--------------------------------EX1--------------------------------------");
         //Moltiplicazione
         int nr1 = 10;
         int nr2 = 2;
@@ -24,6 +25,11 @@ public class Main {
         for (String citta : newStringArray){
             System.out.println(citta);
         }
+
+        System.out.println("--------------------------------EX2--------------------------------------");
+
+        SecondMain mySecondExercice = new SecondMain();
+        mySecondExercice.insertSting();
 
     }
 }
